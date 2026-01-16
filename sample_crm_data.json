@@ -1,0 +1,123 @@
+{
+  "users": {
+    "admin": "admin123",
+    "sales": "sales123"
+  },
+  "customers": [
+    {
+      "id": 1,
+      "name": "John Smith",
+      "email": "john.smith@example.com",
+      "phone": "+1 (555) 123-4567",
+      "company": "Acme Corporation",
+      "created_date": "2026-01-10 09:30"
+    },
+    {
+      "id": 2,
+      "name": "Sarah Johnson",
+      "email": "sarah.j@techstart.com",
+      "phone": "+1 (555) 234-5678",
+      "company": "TechStart Inc",
+      "created_date": "2026-01-11 14:20"
+    },
+    {
+      "id": 3,
+      "name": "Michael Chen",
+      "email": "m.chen@innovate.io",
+      "phone": "+1 (555) 345-6789",
+      "company": "Innovate Solutions",
+      "created_date": "2026-01-12 11:45"
+    },
+    {
+      "id": 4,
+      "name": "Emily Davis",
+      "email": "emily.davis@global.com",
+      "phone": "+1 (555) 456-7890",
+      "company": "Global Enterprises",
+      "created_date": "2026-01-13 16:15"
+    },
+    {
+      "id": 5,
+      "name": "David Wilson",
+      "email": "d.wilson@startup.co",
+      "phone": "+1 (555) 567-8901",
+      "company": "Startup Co",
+      "created_date": "2026-01-14 10:00"
+    }
+  ],
+  "sales": [
+    {
+      "id": 1,
+      "customer_name": "John Smith",
+      "product": "Enterprise Software License",
+      "amount": "15000",
+      "created_date": "2026-01-12 15:30"
+    },
+    {
+      "id": 2,
+      "customer_name": "Sarah Johnson",
+      "product": "Cloud Hosting Package",
+      "amount": "3500",
+      "created_date": "2026-01-13 10:45"
+    },
+    {
+      "id": 3,
+      "customer_name": "Michael Chen",
+      "product": "Consulting Services",
+      "amount": "8500",
+      "created_date": "2026-01-14 14:20"
+    },
+    {
+      "id": 4,
+      "customer_name": "Emily Davis",
+      "product": "Premium Support Plan",
+      "amount": "5000",
+      "created_date": "2026-01-15 09:15"
+    }
+  ],
+  "quotes": [
+    {
+      "id": 1,
+      "customer_name": "David Wilson",
+      "amount": "12000",
+      "description": "Custom Dashboard Development",
+      "status": "Waiting Response",
+      "created_date": "2026-01-14 11:30",
+      "updated_date": "2026-01-15 09:00"
+    },
+    {
+      "id": 2,
+      "customer_name": "John Smith",
+      "amount": "25000",
+      "description": "Annual Enterprise Support",
+      "status": "Approved",
+      "created_date": "2026-01-13 16:00",
+      "updated_date": "2026-01-14 10:30"
+    },
+    {
+      "id": 3,
+      "customer_name": "Sarah Johnson",
+      "amount": "7500",
+      "description": "Website Redesign",
+      "status": "Pending",
+      "created_date": "2026-01-15 13:45"
+    },
+    {
+      "id": 4,
+      "customer_name": "Michael Chen",
+      "amount": "18000",
+      "description": "Mobile App Development",
+      "status": "Waiting Response",
+      "created_date": "2026-01-15 15:20"
+    },
+    {
+      "id": 5,
+      "customer_name": "Emily Davis",
+      "amount": "4500",
+      "description": "SEO Optimization Package",
+      "status": "Rejected",
+      "created_date": "2026-01-10 14:00",
+      "updated_date": "2026-01-12 16:45"
+    }
+  ]
+}
